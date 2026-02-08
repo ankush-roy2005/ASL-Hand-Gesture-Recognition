@@ -37,14 +37,17 @@ Mode Switch: Close fist → Open hand (0.8s cooldown)
 
 
 📦 Installation
-# Clone repository
+Clone repository
 git clone https://github.com/yourusername/asl-hand-gesture-recognition.git
 cd asl-hand-gesture-recognition
-# Create virtual environment
+
+Create virtual environment
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
-# venv\Scripts\activate  # Windows
-# Install dependencies
+
+venv\Scripts\activate  # Windows
+
+Install dependencies
 pip install opencv-python mediapipe scikit-learn numpy pycaw comtypes
 
 
