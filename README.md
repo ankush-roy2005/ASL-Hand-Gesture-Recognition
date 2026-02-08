@@ -140,14 +140,13 @@ Features: 69 (landmarks + distances)
 
 🔧 Customization
 
-python
-# Adjust detection confidence
+
 hands = mpHands.Hands(min_detection_confidence=0.7, min_tracking_confidence=0.7)
-# Volume sensitivity
+
 vol_threshold = 0.02  # Lower = more responsive
-# ASL prediction stability
+
 prediction_stable_threshold = 0.5  # Seconds
-# Mode switch timing
+
 mode_switch_cooldown = 0.8  # Seconds
 
 
