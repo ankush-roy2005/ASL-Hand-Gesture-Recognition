@@ -51,6 +51,7 @@ pip install opencv-python mediapipe scikit-learn numpy pycaw comtypes
 🗂️ Project Structure
 
 text
+
 asl-hand-gesture-recognition/
 ├── asl_real_time_recognition.py     # Real-time detection & control
 ├── train_model.py          # Train ASL classifier
